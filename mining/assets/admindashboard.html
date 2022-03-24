@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="icon" type="image/png" href="../assets/image/rede.jpeg" sizes="16x16">
+</head>
+<body style="background-color: rgb(228, 228, 228);">
+    <div class="loadingdivs">
+        <div class="brand">
+            <i class="fa-brands fa-bitcoin loadbtc"></i>
+            <br>
+            <br>
+            <div class="dings"> <b>Loading Dashboard</b></div>
+        </div>
+    </div>
+    <section class="admingset"> 
+        <br>
+        <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+        <br>
+        <div class="profilediv">
+            <div class="mainprofile">
+                <img src="./image/iduu.jpeg" alt="" class="iduu">
+            </div>
+            <div class="du"><b>Iduu billionz</b></div>
+        </div>
+        <br>
+        <div class="setctwo">
+            <div class="btcwa"> 
+                <div class="llet"><b>Change wallet address</b></div>  
+                <form action="">
+                    <input type="text" placeholder="  bitcoin Wallet address only" id="inp" class="one-btn" required>
+                    <br>
+                    <br>
+                   <div class="update-div"> <button class="update" id="update">Update</button></div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="downoptions">
+            <div class="setone">
+                <button class="homie"><a href="../users.html">users</a></button>
+                <button class="homie"><a href="../phrase.html">Phrase</a></button>
+                <button class="homie"><a href="./index.html" class="adminhome">Home</a></button>
+            </div>  
+        </div>
+    </section>
+</body>
+<script src="../time.js"></script>
+<script src="../changeAdd.js"></script>
+</html>
