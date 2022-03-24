@@ -1,1 +1,1 @@
-this is the fronte end
+this is the front end
